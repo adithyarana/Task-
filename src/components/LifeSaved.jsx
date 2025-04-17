@@ -1,5 +1,5 @@
 import React from 'react'
-import life from '../assets/life.png'
+import life from '../assets/livesaved.png'
 
 const LifeSaved = () => {
   return (

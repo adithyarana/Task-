@@ -23,14 +23,14 @@ export default function RakshakService() {
       </h2>
 
       <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-28 mb-12">
-        {/* Map image */}
+       
         <img
           src={Map}
           alt="India Map"
           className="w-full max-w-md"
         />
 
-        {/* State stats */}
+     
         <div className="flex flex-col gap-6">
           {stateData.map(({ state, number }) => (
             <div key={state} className="flex items-center gap-4 text-lg font-semibold">
@@ -43,7 +43,7 @@ export default function RakshakService() {
         </div>
       </div>
 
-      {/* Paragraph */}
+    
       <p className="max-w-3xl mx-auto text-sm sm:text-base text-gray-600 leading-relaxed mb-6">
         We proudly serve <strong>Haryana, Uttar Pradesh, and Maharashtra</strong> with the fastest ambulance service and top-tier emergency care. Our fleet of <strong>Rakshaks operates round the clock</strong>, ensuring swift response times. AmbuRakshak operates extensively across these three states, providing first-class ambulance services with EMT support and seamless doctor consultation via <strong>AmbuLife Mitra</strong> branded medical equipment.
       </p>
@@ -57,15 +57,15 @@ export default function RakshakService() {
       </button>
 
       {/* Service stats */}
-      <div className="flex items-center justify-center -space-x-4 max-w-5xl mx-auto">
+      <div className="flex items-center justify-center -space-x-4  max-w-5xl mx-auto">
         {serviceStats.map(({ label, value, icon: Icon }) => (
           <div
             key={label}
-            className="flex flex-col items-center justify-center border-4 w-36 bg-white border-red-500 aspect-square rounded-full shadow-sm"
+            className="flex flex-col items-center justify-center border-4 w-40  bg-white border-red-500 aspect-square rounded-full shadow-sm "
           >
             <Icon className="text-red-500 w-8 h-8 mb-2" />
-            <p className="text-xl font-bold text-gray-800">{value}</p>
-            <p className="text-sm text-gray-600">{label}</p>
+            <p className="text-xl font-bold text-gray-800 ">{value}</p>
+            <p className="text-sm text-gray-600 ">{label}</p>
           </div>
         ))}
       </div>
