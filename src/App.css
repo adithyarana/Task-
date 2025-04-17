@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.gradient {
+  background: #ffffff;
+background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(83, 237, 211, 1) 100%);
+}

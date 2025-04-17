@@ -1,6 +1,7 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
 import ExpImage from '../assets/experience.svg'
+import ShadowCirlce from "./ShadowCirlce";
 
 const features = [
   "24/7 patient support",
@@ -37,8 +38,11 @@ const Experience = () => {
         <img
           src={ExpImage}
           alt="Portal Preview"
-          className="w-full max-w-lg"
+          className="w-full max-w-lg z-10"
         />
+         <div className="absolute z-1 left-20 w-3/4 -top-8">
+            <ShadowCirlce/>
+          </div>
       </div>
     </section>
   );

@@ -10,12 +10,13 @@ import Experience from './components/Experience'
 import RakshakService from './components/RakshakService'
 import Need from './components/Need'
 import LifeSaved from './components/LifeSaved'
+import ShadowCirlce from './components/ShadowCirlce'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div className=''>
+   <div className='w-full overflow-hidden'>
      <Nav/>
      <HeroSection/>
      <WhyChooseUs/>
@@ -24,6 +25,7 @@ function App() {
      <RakshakService/>
      <Need/>
      <LifeSaved/>
+     {/* <ShadowCirlce/> */}
    </div>
   )
 }

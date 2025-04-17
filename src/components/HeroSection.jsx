@@ -1,10 +1,11 @@
 import { PhoneCall } from "lucide-react";
 import ambulance from "../assets/Ambulance.png"; // Replace with your actual image pathS
+import ShadowCirlce from "./ShadowCirlce";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white w-full py-10 px-4 md:px-16">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+    <section className="bg-white w-full py-10 px-4 md:px-16 -z-10">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row gap-6 items-center justify-between">
         {/* Left Content */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -40,10 +41,10 @@ const HeroSection = () => {
           <div className="relative z-10">
             <img src={ambulance} alt="Ambulance" className="max-w-xs md:max-w-md" />
           </div>
-          {/* You can layer a phone behind the ambulance like in the design */}
-          {/* <div className="absolute top-0 right-10 z-0 hidden md:block">
-            <img src={phoneMockup} alt="Phone Mockup" className="max-w-xs" />
-          </div> */}
+          <div className="absolute z-1 -right-8 w-full">
+            <ShadowCirlce/>
+          </div>
+          
         </div>
       </div>
 

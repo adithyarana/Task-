@@ -1,34 +1,45 @@
 import React from "react";
 import { PhoneCall } from "lucide-react";
+import ambulance from '../assets/ambulance.png'
+import nurse from '../assets/nurse1.png'
+import patient from '../assets/patient.png'
+import slip from '../assets/slip.png'
+import hospital from '../assets/hospital.png'
+import vision1 from '../assets/vision1.png'
+import vision2 from '../assets/vision2.png'
+import vision3 from '../assets/vision3.png'
+import vision4 from '../assets/vision4.png'
+
+
 
 const stats = [
-  { icon: "/ambulance.png", value: "78+", label: "Ambulances" },
-  { icon: "/nurse1.png", value: "129+", label: "Health Personals" },
-  { icon: "/patient.png", value: "2789+", label: "Patients" },
-  { icon: "/slip.png", value: "100+", label: "Ambulance Drivers" },
-  { icon: "/hospital.png", value: "1290 km+", label: "Area Covers" },
+  { icon: ambulance, value: "78+", label: "Ambulances" },
+  { icon: nurse, value: "129+", label: "Health Personals" },
+  { icon: patient, value: "2789+", label: "Patients" },
+  { icon: slip, value: "100+", label: "Ambulance Drivers" },
+  { icon: hospital, value: "1290 km+", label: "Area Covers" },
 ];
 
 const visionItems = [
   {
     title: "To Provide",
     subtitle: "Medical Services",
-    img: "/vision1.png",
+    img: vision1,
   },
   {
     title: "To",
     subtitle: "Bridge Gap in Healthcare",
-    img: "/vision2.png",
+    img: vision2,
   },
   {
     title: "To Provide",
     subtitle: "Healthcare to remote Areas",
-    img: "/vision3.png",
+    img: vision3,
   },
   {
     title: "To",
     subtitle: "Economical and Fastest",
-    img: "/vision4.png",
+    img: vision4,
   },
 ];
 
