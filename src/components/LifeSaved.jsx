@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../assets/lifesaved.svg'
+import life from '../assets/lifesaved.svg'
 
 const LifeSaved = () => {
   return (
     <div>
     <div className='flex w-full items-center justify-center'>
         <img
-        src={img}
+        src={life}
         alt='life-saved'
         className='w-4/5 mx-auto h-auto'
         />
