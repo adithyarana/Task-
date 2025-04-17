@@ -1,8 +1,12 @@
 import { Menu, X } from "lucide-react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Nav = () => {
-  const [isModal, setIsModal] = useState(true);
+  const [isModal, setIsModal] = useState(false);
+
+  useEffect(() => {
+      setIsModal(false);
+  },[])
 
   return (
     <nav className="flex w-full justify-between items-center px-6 pb-4 bg-white">

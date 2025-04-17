@@ -1,5 +1,5 @@
 import { PhoneCall } from "lucide-react";
-import ambulance from "../assets/Ambulance.png"; // Replace with your actual image pathS
+import ambulance from "../assets/Ambulance.png"; 
 import ShadowCirlce from "./ShadowCirlce";
 
 const HeroSection = () => {
@@ -48,7 +48,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Fixed Call Now Button */}
+      
       <a
         href="tel:+918630729931"
         className="fixed bottom-4 left-4 bg-white border border-red-600 text-red-600 px-4 py-2 rounded-full flex items-center shadow-lg hover:bg-red-50 transition z-50"

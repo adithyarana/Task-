@@ -46,12 +46,6 @@ const visionItems = [
 const WhyChooseUs = () => {
   return (
     <section className="px-4 py-10 md:px-20 relative">
-      <div className="absolute top-4 left-4">
-        <button className="flex items-center gap-2 text-red-600 border border-red-600 px-4 py-2 rounded-full font-semibold shadow-md hover:bg-red-50 transition">
-          <PhoneCall size={20} />
-          Call Now
-        </button>
-      </div>
 
       {/* Why Choose Us */}
       <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">Why Choose us</h2>
