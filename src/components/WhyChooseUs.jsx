@@ -1,6 +1,6 @@
 import React from "react";
 import { PhoneCall } from "lucide-react";
-import ambulance from '../assets/ambulance.png'
+import doctor from '../assets/doctor.png'
 import nurse from '../assets/nurse1.png'
 import patient from '../assets/patient.png'
 import slip from '../assets/slip.png'
@@ -13,7 +13,7 @@ import vision4 from '../assets/vision4.png'
 
 
 const stats = [
-  { icon: ambulance, value: "78+", label: "Ambulances" },
+  { icon: doctor, value: "78+", label: "Ambulances" },
   { icon: nurse, value: "129+", label: "Health Personals" },
   { icon: patient, value: "2789+", label: "Patients" },
   { icon: slip, value: "100+", label: "Ambulance Drivers" },
